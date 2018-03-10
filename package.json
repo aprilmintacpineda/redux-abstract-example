@@ -1,0 +1,43 @@
+{
+  "name": "redux-abstract-example",
+  "version": "1.0.0",
+  "description": "Example code for redux-abstract https://github.com/aprilmintacpineda/redux-abstract",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon --exec babel-node server.js",
+    "build": "node node_modules/webpack/bin/webpack.js --mode development",
+    "build:watch": "node node_modules/webpack/bin/webpack.js --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprilmintacpineda/redux-abstract-example.git"
+  },
+  "keywords": [
+    "redux-abstract-example",
+    "redux-abstract",
+    "redux"
+  ],
+  "author": "April Mintac PIneda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aprilmintacpineda/redux-abstract-example/issues"
+  },
+  "homepage": "https://github.com/aprilmintacpineda/redux-abstract-example#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.2",
+    "nodemon": "^1.17.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-abstract": "^1.0.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  }
+}
