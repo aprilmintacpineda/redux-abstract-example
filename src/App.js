@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { actions as todosActions } from './reducers/todos/actions';
+import todosActions from './reducers/todos/actions';
 
 class App extends Component {
   render() {
