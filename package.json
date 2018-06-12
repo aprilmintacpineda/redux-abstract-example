@@ -1,6 +1,6 @@
 {
   "name": "redux-abstract-example",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Example code for redux-abstract https://github.com/aprilmintacpineda/redux-abstract",
   "main": "webpack.config.js",
   "scripts": {
